@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		442D2D322427645000E32AF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442D2D312427645000E32AF1 /* AppDelegate.swift */; };
 		442D2D342427645000E32AF1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442D2D332427645000E32AF1 /* SceneDelegate.swift */; };
-		442D2D362427645000E32AF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442D2D352427645000E32AF1 /* ViewController.swift */; };
+		442D2D362427645000E32AF1 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442D2D352427645000E32AF1 /* HomeController.swift */; };
 		442D2D392427645100E32AF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 442D2D372427645000E32AF1 /* Main.storyboard */; };
 		442D2D3B2427645400E32AF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 442D2D3A2427645400E32AF1 /* Assets.xcassets */; };
 		442D2D3E2427645400E32AF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 442D2D3C2427645400E32AF1 /* LaunchScreen.storyboard */; };
+		442D2D462427646100E32AF1 /* CoronaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442D2D452427646100E32AF1 /* CoronaModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		442D2D2E2427645000E32AF1 /* CoronaTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoronaTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		442D2D312427645000E32AF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		442D2D332427645000E32AF1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		442D2D352427645000E32AF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		442D2D352427645000E32AF1 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		442D2D382427645000E32AF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		442D2D3A2427645400E32AF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		442D2D3D2427645400E32AF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		442D2D3F2427645400E32AF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		442D2D452427646100E32AF1 /* CoronaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoronaModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				442D2D312427645000E32AF1 /* AppDelegate.swift */,
 				442D2D332427645000E32AF1 /* SceneDelegate.swift */,
-				442D2D352427645000E32AF1 /* ViewController.swift */,
+				442D2D352427645000E32AF1 /* HomeController.swift */,
 				442D2D372427645000E32AF1 /* Main.storyboard */,
 				442D2D3A2427645400E32AF1 /* Assets.xcassets */,
 				442D2D3C2427645400E32AF1 /* LaunchScreen.storyboard */,
 				442D2D3F2427645400E32AF1 /* Info.plist */,
+				442D2D452427646100E32AF1 /* CoronaModel.swift */,
 			);
 			path = CoronaTracker;
 			sourceTree = "<group>";
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				442D2D362427645000E32AF1 /* ViewController.swift in Sources */,
+				442D2D362427645000E32AF1 /* HomeController.swift in Sources */,
 				442D2D322427645000E32AF1 /* AppDelegate.swift in Sources */,
 				442D2D342427645000E32AF1 /* SceneDelegate.swift in Sources */,
+				442D2D462427646100E32AF1 /* CoronaModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
